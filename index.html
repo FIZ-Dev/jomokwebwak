@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jomokers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main-content">
+        <h1>Jomokers</h1>
+        <form id="name-form">
+            <input type="text" id="name-input" placeholder="Masukkan nama Anda" required>
+            <button type="submit">Cek Jomok</button>
+        </form>
+        <button id="guide-btn">Panduan & Tier List</button>
+        <div id="result" class="hidden">
+            <p>Nama Anda adalah <span id="name-result"></span></p>
+            <p>Persentase jomok: <span id="percentage-result"></span></p>
+        </div>
+        <div id="guide" class="hidden">
+            <h2>Panduan Penggunaan</h2>
+            <p>Masukkan nama Anda di kolom input dan klik tombol "Cek Jomok" untuk mengetahui seberapa jomok nama Anda.</p>
+            <h2>Tier List Jomok</h2>
+            <ul>
+                <li><strong>0% - 20%</strong>: Jomok Level 1 - Nama yang sangat jomok.</li>
+                <li><strong>21% - 40%</strong>: Jomok Level 2 - Nama cukup jomok.</li>
+                <li><strong>41% - 60%</strong>: Jomok Level 3 - Nama sedikit jomok.</li>
+                <li><strong>61% - 80%</strong>: Jomok Level 4 - Nama tidak jomok.</li>
+                <li><strong>81% - 100%</strong>: Jomok Level 5 - Nama tidak sama sekali jomok.</li>
+            </ul>
+        </div>
+    </div>
+
+    <audio id="notification-sound" src="ambatukam.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.jpg'); /* Ganti 'background.jpg' dengan nama file gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#main-content {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Background putih transparan untuk kontras */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#name-form {
+    margin: 20px;
+}
+
+#name-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#guide {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#guide h2 {
+    margin-top: 20px;
+}
