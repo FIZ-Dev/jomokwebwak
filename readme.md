@@ -20,7 +20,7 @@ Jomokers adalah sebuah website yang memungkinkan pengguna untuk memeriksa "tingk
 
 1. **Clone repository**:
     ```bash
-    git clone https://github.com/username/jomokers.git](https://github.com/FIZ-Dev/jomokwebwak
+    git clone https://github.com/FIZ-Dev/jomokwebwak
     ```
 
 2. **Masuk ke direktori proyek**:
