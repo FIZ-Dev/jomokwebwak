@@ -53,11 +53,4 @@ Jomokers adalah sebuah website yang memungkinkan pengguna untuk memeriksa "tingk
 
 Jika Anda ingin berkontribusi pada proyek ini, silakan fork repository ini, buat perubahan, dan kirimkan pull request.
 
-## Lisensi
-
-Proyek ini tidak memiliki lisensi tertentu. Silakan gunakan sesuai kebutuhan Anda.
-
-## Kontak
-
-Untuk pertanyaan atau bantuan lebih lanjut, Anda dapat menghubungi [nama Anda] di [email Anda].
 
