@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const notificationSound = document.getElementById('notification-sound');
+    const lowPercentageSound = document.getElementById('low-percentage-sound');
+    const highPercentageSound = document.getElementById('high-percentage-sound');
 
     document.getElementById('name-form').addEventListener('submit', (event) => {
         event.preventDefault();
@@ -11,8 +12,12 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('percentage-result').textContent = `${percentage}%`;
         document.getElementById('result').classList.remove('hidden');
 
-        // Play the notification sound
-        notificationSound.play();
+        // Tentukan suara berdasarkan persentase
+        if (percentage <= 40) {
+            lowPercentageSound.play();
+        } else {
+            highPercentageSound.play();
+        }
     });
 
     document.getElementById('guide-btn').addEventListener('click', () => {
@@ -21,11 +26,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function calculateJomokPercentage(name) {
-        // Basic calculation for demo purposes
-        // Replace with your actual logic
+        // Perhitungan sederhana untuk demo
         const basePercentage = 50; // Base percentage
         const nameLength = name.length;
-        const percentage = Math.min(basePercentage + nameLength * 2, 100); // Example calculation
+        const percentage = Math.min(basePercentage + nameLength * 2, 100); // Contoh perhitungan
         return percentage;
     }
 });
